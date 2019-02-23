@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mbedtls_demo_complete"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aes_ecb_256_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/aes_ecb_256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 aes_ecb_256_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aes_ecb_256_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/aes_ecb_256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 aes_ecb_256_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecdh_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecdh_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecdh_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecdh_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecdh_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecdh_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecdsa_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecdsa_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecdsa_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecdsa_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecdsa_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecdsa_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hmac_sha256_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/hmac_sha256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 hmac_sha256_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hmac_sha256_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/hmac_sha256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 hmac_sha256_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecc_key_gen">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecc_key_gen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecc_key_gen"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecc_key_gen/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/ecc_key_gen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecc_key_gen/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sha256_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/sha256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 sha256_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sha256_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/sha256_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 sha256_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chacha20_demo">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/chacha20_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 chacha20_demo"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chacha20_demo/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/chacha20_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 chacha20_demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls_demo_complete">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/mbedtls_demo_complete" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 mbedtls_demo_complete"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls_demo_complete/fast">
+				<Option output="/home/mbedtls-demo-complete/cmake-build-debug/mbedtls_demo_complete" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbedtls-demo-complete/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 mbedtls_demo_complete/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mbedtls-demo-complete/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mbedtls-demo-complete/aes_ecb_256_demo.c">
+			<Option target="aes_ecb_256_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/chacha20_demo.c">
+			<Option target="chacha20_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/ecc_key_gen.c">
+			<Option target="ecc_key_gen"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/ecdh_demo.c">
+			<Option target="ecdh_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/ecdsa_demo.c">
+			<Option target="ecdsa_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/hmac_sha256_demo.c">
+			<Option target="hmac_sha256_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/main.c">
+			<Option target="mbedtls_demo_complete"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/sha256_demo.c">
+			<Option target="sha256_demo"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/util.c">
+			<Option target="aes_ecb_256_demo"/>
+			<Option target="ecdh_demo"/>
+			<Option target="ecdsa_demo"/>
+			<Option target="hmac_sha256_demo"/>
+			<Option target="ecc_key_gen"/>
+			<Option target="sha256_demo"/>
+			<Option target="chacha20_demo"/>
+			<Option target="mbedtls_demo_complete"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/util.h">
+			<Option target="aes_ecb_256_demo"/>
+			<Option target="ecdh_demo"/>
+			<Option target="ecdsa_demo"/>
+			<Option target="hmac_sha256_demo"/>
+			<Option target="ecc_key_gen"/>
+			<Option target="sha256_demo"/>
+			<Option target="chacha20_demo"/>
+			<Option target="mbedtls_demo_complete"/>
+		</Unit>
+		<Unit filename="/home/mbedtls-demo-complete/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/chacha20_demo.dir/chacha20_demo.c.o CMakeFiles/chacha20_demo.dir/util.c.o  -o chacha20_demo -lmbedcrypto 

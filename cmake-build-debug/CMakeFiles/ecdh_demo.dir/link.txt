@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ecdh_demo.dir/ecdh_demo.c.o CMakeFiles/ecdh_demo.dir/util.c.o  -o ecdh_demo -lmbedcrypto 

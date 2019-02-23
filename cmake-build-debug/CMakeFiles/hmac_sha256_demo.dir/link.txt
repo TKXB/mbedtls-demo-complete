@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/hmac_sha256_demo.dir/hmac_sha256_demo.c.o CMakeFiles/hmac_sha256_demo.dir/util.c.o  -o hmac_sha256_demo -lmbedcrypto 

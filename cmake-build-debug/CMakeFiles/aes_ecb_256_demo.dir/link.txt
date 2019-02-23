@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/aes_ecb_256_demo.dir/aes_ecb_256_demo.c.o CMakeFiles/aes_ecb_256_demo.dir/util.c.o  -o aes_ecb_256_demo -lmbedcrypto 

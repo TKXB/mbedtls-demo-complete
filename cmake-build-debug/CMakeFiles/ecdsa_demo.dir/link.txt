@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ecdsa_demo.dir/ecdsa_demo.c.o CMakeFiles/ecdsa_demo.dir/util.c.o  -o ecdsa_demo -lmbedcrypto 
