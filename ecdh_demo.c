@@ -166,8 +166,7 @@ int main(int argc, char *argv[]) {
 
     ret = mbedtls_ecdh_make_public(&ctx_srv_third, &olen, srv_to_cli_third, sizeof srv_to_cli_third, mbedtls_ctr_drbg_random, &ctr_drbg);
 
-    const unsigned char * buf_ptr_third = srv_to_cli_third;
-    ret = mbedtls_ecdh_read_public(&ctx_cli_third, buf_ptr_third, olen);
+    ret = mbedtls_ecdh_read_public(&ctx_cli_third, srv_to_cli_third, olen);
     ret = mbedtls_ecdh_make_public(&ctx_cli_third, &olen, cli_to_srv_third, sizeof cli_to_srv_third, mbedtls_ctr_drbg_random, &ctr_drbg);
     ret = mbedtls_ecdh_calc_secret(&ctx_cli_third, &olen2, buf2_third, 32, mbedtls_ctr_drbg_random, &ctr_drbg);//generates Masterkey
     ret = mbedtls_ecdh_read_public(&ctx_srv_third, cli_to_srv_third, olen);
