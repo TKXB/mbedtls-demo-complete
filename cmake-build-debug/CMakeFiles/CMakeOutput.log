@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f2d8c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f2d8c.dir/build.make CMakeFiles/cmTC_f2d8c.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2d8c.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_f2d8c.dir/testCCompiler.c.o   -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f2d8c
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2d8c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f2d8c.dir/testCCompiler.c.o  -o cmTC_f2d8c 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_60a32/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_60a32.dir/build.make CMakeFiles/cmTC_60a32.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60a32.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_60a32.dir/testCCompiler.c.o   -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_60a32
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60a32.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_60a32.dir/testCCompiler.c.o  -o cmTC_60a32 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d4216/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d4216.dir/build.make CMakeFiles/cmTC_d4216.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d4216
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4216.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o  -o cmTC_d4216  
+Run Build Command:"/usr/bin/gmake" "cmTC_4a3c9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4a3c9.dir/build.make CMakeFiles/cmTC_4a3c9.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4a3c9
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3c9.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o  -o cmTC_4a3c9  
 Using built-in specs.
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
@@ -57,23 +57,23 @@ Thread model: posix
 gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4216' '-mtune=generic'
- /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d4216 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a3c9' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4a3c9 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d4216/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d4216.dir/build.make CMakeFiles/cmTC_d4216.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d4216]
-  ignore line: [/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4216.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o  -o cmTC_d4216  ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4a3c9/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4a3c9.dir/build.make CMakeFiles/cmTC_4a3c9.dir/build]
+  ignore line: [gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4a3c9]
+  ignore line: [/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3c9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o  -o cmTC_4a3c9  ]
   ignore line: [Using built-in specs.]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
@@ -81,8 +81,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4216' '-mtune=generic']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d4216 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a3c9' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4a3c9 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--build-id] ==> ignore
@@ -92,7 +92,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d4216] ==> ignore
+    arg [cmTC_4a3c9] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
@@ -102,7 +102,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
-    arg [CMakeFiles/cmTC_d4216.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4a3c9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -132,17 +132,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b7e99/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_b7e99.dir/build.make CMakeFiles/cmTC_b7e99.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b7e99.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b7e99.dir/feature_tests.c.o   -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b7e99
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e99.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b7e99.dir/feature_tests.c.o  -o cmTC_b7e99 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_42a36/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_42a36.dir/build.make CMakeFiles/cmTC_42a36.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42a36.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_42a36.dir/feature_tests.c.o   -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_42a36
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42a36.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_42a36.dir/feature_tests.c.o  -o cmTC_42a36 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +152,17 @@ gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMake
 
 
 Detecting C [-std=c89] compiler features compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_bb1e6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_bb1e6.dir/build.make CMakeFiles/cmTC_bb1e6.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb1e6.dir/feature_tests.c.o
-/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_bb1e6.dir/feature_tests.c.o   -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bb1e6
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb1e6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bb1e6.dir/feature_tests.c.o  -o cmTC_bb1e6 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ea530/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ea530.dir/build.make CMakeFiles/cmTC_ea530.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea530.dir/feature_tests.c.o
+/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_ea530.dir/feature_tests.c.o   -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ea530
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea530.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ea530.dir/feature_tests.c.o  -o cmTC_ea530 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -170,30 +170,30 @@ gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_aefe6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_aefe6.dir/build.make CMakeFiles/cmTC_aefe6.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aefe6.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_aefe6.dir/testCXXCompiler.cxx.o -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_aefe6
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefe6.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_aefe6.dir/testCXXCompiler.cxx.o  -o cmTC_aefe6 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_27adb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_27adb.dir/build.make CMakeFiles/cmTC_27adb.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27adb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_27adb.dir/testCXXCompiler.cxx.o -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_27adb
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27adb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_27adb.dir/testCXXCompiler.cxx.o  -o cmTC_27adb 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_df543/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_df543.dir/build.make CMakeFiles/cmTC_df543.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_df543
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df543.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df543  
+Run Build Command:"/usr/bin/gmake" "cmTC_993a3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_993a3.dir/build.make CMakeFiles/cmTC_993a3.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_993a3
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_993a3.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_993a3  
 Using built-in specs.
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
@@ -201,23 +201,23 @@ Thread model: posix
 gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df543' '-shared-libgcc' '-mtune=generic'
- /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df543 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_993a3' '-shared-libgcc' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_993a3 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_df543/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_df543.dir/build.make CMakeFiles/cmTC_df543.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_df543]
-  ignore line: [/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df543.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_df543  ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_993a3/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_993a3.dir/build.make CMakeFiles/cmTC_993a3.dir/build]
+  ignore line: [gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_993a3]
+  ignore line: [/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_993a3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_993a3  ]
   ignore line: [Using built-in specs.]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
@@ -225,8 +225,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df543' '-shared-libgcc' '-mtune=generic']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df543 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_993a3' '-shared-libgcc' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_993a3 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--build-id] ==> ignore
@@ -236,7 +236,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_df543] ==> ignore
+    arg [cmTC_993a3] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
@@ -246,7 +246,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
-    arg [CMakeFiles/cmTC_df543.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_993a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -274,17 +274,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++0x] compiler features compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0a454/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_0a454.dir/build.make CMakeFiles/cmTC_0a454.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a454.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_0a454.dir/feature_tests.cxx.o -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0a454
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a454.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_0a454.dir/feature_tests.cxx.o  -o cmTC_0a454 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_f0360/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f0360.dir/build.make CMakeFiles/cmTC_f0360.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0360.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_f0360.dir/feature_tests.cxx.o -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f0360
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0360.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f0360.dir/feature_tests.cxx.o  -o cmTC_f0360 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -347,17 +347,17 @@ gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3ad91/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3ad91.dir/build.make CMakeFiles/cmTC_3ad91.dir/build
-gmake[1]: Entering directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ad91.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_3ad91.dir/feature_tests.cxx.o -c /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3ad91
-/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ad91.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3ad91.dir/feature_tests.cxx.o  -o cmTC_3ad91 
-gmake[1]: Leaving directory `/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_5fb6f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5fb6f.dir/build.make CMakeFiles/cmTC_5fb6f.dir/build
+gmake[1]: Entering directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fb6f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_5fb6f.dir/feature_tests.cxx.o -c /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5fb6f
+/opt/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb6f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5fb6f.dir/feature_tests.cxx.o  -o cmTC_5fb6f 
+gmake[1]: Leaving directory `/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

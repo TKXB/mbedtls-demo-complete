@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ecc_key_gen_der.dir/ecc_key_gen_der.c.o CMakeFiles/ecc_key_gen_der.dir/util.c.o  -o ecc_key_gen_der -lmbedcrypto 

@@ -54,45 +54,193 @@ RM = /opt/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mbedtls-demo-complete
+CMAKE_SOURCE_DIR = /tmp/mbedtls-demo-complete
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mbedtls-demo-complete/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/mbedtls-demo-complete/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/aes_ecb_256_demo.dir
+# Target rules for target CMakeFiles/mbedtls_demo_complete.dir
 
 # All Build rule for target.
-CMakeFiles/aes_ecb_256_demo.dir/all:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/depend
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target aes_ecb_256_demo"
-.PHONY : CMakeFiles/aes_ecb_256_demo.dir/all
+CMakeFiles/mbedtls_demo_complete.dir/all:
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/depend
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target mbedtls_demo_complete"
+.PHONY : CMakeFiles/mbedtls_demo_complete.dir/all
 
 # Include target in all.
-all: CMakeFiles/aes_ecb_256_demo.dir/all
+all: CMakeFiles/mbedtls_demo_complete.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/aes_ecb_256_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aes_ecb_256_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/aes_ecb_256_demo.dir/rule
+CMakeFiles/mbedtls_demo_complete.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mbedtls_demo_complete.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/mbedtls_demo_complete.dir/rule
 
 # Convenience name for target.
-aes_ecb_256_demo: CMakeFiles/aes_ecb_256_demo.dir/rule
+mbedtls_demo_complete: CMakeFiles/mbedtls_demo_complete.dir/rule
 
-.PHONY : aes_ecb_256_demo
-
-# clean rule for target.
-CMakeFiles/aes_ecb_256_demo.dir/clean:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/clean
-.PHONY : CMakeFiles/aes_ecb_256_demo.dir/clean
+.PHONY : mbedtls_demo_complete
 
 # clean rule for target.
-clean: CMakeFiles/aes_ecb_256_demo.dir/clean
+CMakeFiles/mbedtls_demo_complete.dir/clean:
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/clean
+.PHONY : CMakeFiles/mbedtls_demo_complete.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mbedtls_demo_complete.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chacha20_demo.dir
+
+# All Build rule for target.
+CMakeFiles/chacha20_demo.dir/all:
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/depend
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target chacha20_demo"
+.PHONY : CMakeFiles/chacha20_demo.dir/all
+
+# Include target in all.
+all: CMakeFiles/chacha20_demo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chacha20_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chacha20_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/chacha20_demo.dir/rule
+
+# Convenience name for target.
+chacha20_demo: CMakeFiles/chacha20_demo.dir/rule
+
+.PHONY : chacha20_demo
+
+# clean rule for target.
+CMakeFiles/chacha20_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/clean
+.PHONY : CMakeFiles/chacha20_demo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chacha20_demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sha256_demo.dir
+
+# All Build rule for target.
+CMakeFiles/sha256_demo.dir/all:
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/depend
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target sha256_demo"
+.PHONY : CMakeFiles/sha256_demo.dir/all
+
+# Include target in all.
+all: CMakeFiles/sha256_demo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sha256_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sha256_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sha256_demo.dir/rule
+
+# Convenience name for target.
+sha256_demo: CMakeFiles/sha256_demo.dir/rule
+
+.PHONY : sha256_demo
+
+# clean rule for target.
+CMakeFiles/sha256_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/clean
+.PHONY : CMakeFiles/sha256_demo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sha256_demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ecc_key_gen.dir
+
+# All Build rule for target.
+CMakeFiles/ecc_key_gen.dir/all:
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/depend
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target ecc_key_gen"
+.PHONY : CMakeFiles/ecc_key_gen.dir/all
+
+# Include target in all.
+all: CMakeFiles/ecc_key_gen.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ecc_key_gen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecc_key_gen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ecc_key_gen.dir/rule
+
+# Convenience name for target.
+ecc_key_gen: CMakeFiles/ecc_key_gen.dir/rule
+
+.PHONY : ecc_key_gen
+
+# clean rule for target.
+CMakeFiles/ecc_key_gen.dir/clean:
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/clean
+.PHONY : CMakeFiles/ecc_key_gen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ecc_key_gen.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hmac_sha256_demo.dir
+
+# All Build rule for target.
+CMakeFiles/hmac_sha256_demo.dir/all:
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/depend
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target hmac_sha256_demo"
+.PHONY : CMakeFiles/hmac_sha256_demo.dir/all
+
+# Include target in all.
+all: CMakeFiles/hmac_sha256_demo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hmac_sha256_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hmac_sha256_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hmac_sha256_demo.dir/rule
+
+# Convenience name for target.
+hmac_sha256_demo: CMakeFiles/hmac_sha256_demo.dir/rule
+
+.PHONY : hmac_sha256_demo
+
+# clean rule for target.
+CMakeFiles/hmac_sha256_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/clean
+.PHONY : CMakeFiles/hmac_sha256_demo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hmac_sha256_demo.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +251,7 @@ clean: CMakeFiles/aes_ecb_256_demo.dir/clean
 CMakeFiles/ecdh_demo.dir/all:
 	$(MAKE) -f CMakeFiles/ecdh_demo.dir/build.make CMakeFiles/ecdh_demo.dir/depend
 	$(MAKE) -f CMakeFiles/ecdh_demo.dir/build.make CMakeFiles/ecdh_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target ecdh_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target ecdh_demo"
 .PHONY : CMakeFiles/ecdh_demo.dir/all
 
 # Include target in all.
@@ -113,9 +261,9 @@ all: CMakeFiles/ecdh_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ecdh_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecdh_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ecdh_demo.dir/rule
 
 # Convenience name for target.
@@ -140,7 +288,7 @@ clean: CMakeFiles/ecdh_demo.dir/clean
 CMakeFiles/ecdsa_demo.dir/all:
 	$(MAKE) -f CMakeFiles/ecdsa_demo.dir/build.make CMakeFiles/ecdsa_demo.dir/depend
 	$(MAKE) -f CMakeFiles/ecdsa_demo.dir/build.make CMakeFiles/ecdsa_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target ecdsa_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target ecdsa_demo"
 .PHONY : CMakeFiles/ecdsa_demo.dir/all
 
 # Include target in all.
@@ -150,9 +298,9 @@ all: CMakeFiles/ecdsa_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ecdsa_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecdsa_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ecdsa_demo.dir/rule
 
 # Convenience name for target.
@@ -171,187 +319,76 @@ clean: CMakeFiles/ecdsa_demo.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hmac_sha256_demo.dir
+# Target rules for target CMakeFiles/aes_ecb_256_demo.dir
 
 # All Build rule for target.
-CMakeFiles/hmac_sha256_demo.dir/all:
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/depend
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target hmac_sha256_demo"
-.PHONY : CMakeFiles/hmac_sha256_demo.dir/all
+CMakeFiles/aes_ecb_256_demo.dir/all:
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/depend
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target aes_ecb_256_demo"
+.PHONY : CMakeFiles/aes_ecb_256_demo.dir/all
 
 # Include target in all.
-all: CMakeFiles/hmac_sha256_demo.dir/all
+all: CMakeFiles/aes_ecb_256_demo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hmac_sha256_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hmac_sha256_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hmac_sha256_demo.dir/rule
+CMakeFiles/aes_ecb_256_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aes_ecb_256_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/aes_ecb_256_demo.dir/rule
 
 # Convenience name for target.
-hmac_sha256_demo: CMakeFiles/hmac_sha256_demo.dir/rule
+aes_ecb_256_demo: CMakeFiles/aes_ecb_256_demo.dir/rule
 
-.PHONY : hmac_sha256_demo
-
-# clean rule for target.
-CMakeFiles/hmac_sha256_demo.dir/clean:
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/clean
-.PHONY : CMakeFiles/hmac_sha256_demo.dir/clean
+.PHONY : aes_ecb_256_demo
 
 # clean rule for target.
-clean: CMakeFiles/hmac_sha256_demo.dir/clean
+CMakeFiles/aes_ecb_256_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/clean
+.PHONY : CMakeFiles/aes_ecb_256_demo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/aes_ecb_256_demo.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ecc_key_gen.dir
+# Target rules for target CMakeFiles/ecc_key_gen_der.dir
 
 # All Build rule for target.
-CMakeFiles/ecc_key_gen.dir/all:
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/depend
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target ecc_key_gen"
-.PHONY : CMakeFiles/ecc_key_gen.dir/all
+CMakeFiles/ecc_key_gen_der.dir/all:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/depend
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target ecc_key_gen_der"
+.PHONY : CMakeFiles/ecc_key_gen_der.dir/all
 
 # Include target in all.
-all: CMakeFiles/ecc_key_gen.dir/all
+all: CMakeFiles/ecc_key_gen_der.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ecc_key_gen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecc_key_gen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ecc_key_gen.dir/rule
+CMakeFiles/ecc_key_gen_der.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecc_key_gen_der.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ecc_key_gen_der.dir/rule
 
 # Convenience name for target.
-ecc_key_gen: CMakeFiles/ecc_key_gen.dir/rule
+ecc_key_gen_der: CMakeFiles/ecc_key_gen_der.dir/rule
 
-.PHONY : ecc_key_gen
-
-# clean rule for target.
-CMakeFiles/ecc_key_gen.dir/clean:
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/clean
-.PHONY : CMakeFiles/ecc_key_gen.dir/clean
+.PHONY : ecc_key_gen_der
 
 # clean rule for target.
-clean: CMakeFiles/ecc_key_gen.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sha256_demo.dir
-
-# All Build rule for target.
-CMakeFiles/sha256_demo.dir/all:
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/depend
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target sha256_demo"
-.PHONY : CMakeFiles/sha256_demo.dir/all
-
-# Include target in all.
-all: CMakeFiles/sha256_demo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sha256_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sha256_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sha256_demo.dir/rule
-
-# Convenience name for target.
-sha256_demo: CMakeFiles/sha256_demo.dir/rule
-
-.PHONY : sha256_demo
+CMakeFiles/ecc_key_gen_der.dir/clean:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/clean
+.PHONY : CMakeFiles/ecc_key_gen_der.dir/clean
 
 # clean rule for target.
-CMakeFiles/sha256_demo.dir/clean:
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/clean
-.PHONY : CMakeFiles/sha256_demo.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/sha256_demo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/chacha20_demo.dir
-
-# All Build rule for target.
-CMakeFiles/chacha20_demo.dir/all:
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/depend
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target chacha20_demo"
-.PHONY : CMakeFiles/chacha20_demo.dir/all
-
-# Include target in all.
-all: CMakeFiles/chacha20_demo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/chacha20_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chacha20_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/chacha20_demo.dir/rule
-
-# Convenience name for target.
-chacha20_demo: CMakeFiles/chacha20_demo.dir/rule
-
-.PHONY : chacha20_demo
-
-# clean rule for target.
-CMakeFiles/chacha20_demo.dir/clean:
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/clean
-.PHONY : CMakeFiles/chacha20_demo.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/chacha20_demo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mbedtls_demo_complete.dir
-
-# All Build rule for target.
-CMakeFiles/mbedtls_demo_complete.dir/all:
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/depend
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target mbedtls_demo_complete"
-.PHONY : CMakeFiles/mbedtls_demo_complete.dir/all
-
-# Include target in all.
-all: CMakeFiles/mbedtls_demo_complete.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mbedtls_demo_complete.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mbedtls_demo_complete.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/mbedtls_demo_complete.dir/rule
-
-# Convenience name for target.
-mbedtls_demo_complete: CMakeFiles/mbedtls_demo_complete.dir/rule
-
-.PHONY : mbedtls_demo_complete
-
-# clean rule for target.
-CMakeFiles/mbedtls_demo_complete.dir/clean:
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/clean
-.PHONY : CMakeFiles/mbedtls_demo_complete.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/mbedtls_demo_complete.dir/clean
+clean: CMakeFiles/ecc_key_gen_der.dir/clean
 
 .PHONY : clean
 

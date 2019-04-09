@@ -48,10 +48,10 @@ RM = /opt/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mbedtls-demo-complete
+CMAKE_SOURCE_DIR = /tmp/mbedtls-demo-complete
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mbedtls-demo-complete/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/mbedtls-demo-complete/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aes_ecb_256_demo
+# Target rules for targets named mbedtls_demo_complete
 
 # Build rule for target.
-aes_ecb_256_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aes_ecb_256_demo
-.PHONY : aes_ecb_256_demo
+mbedtls_demo_complete: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mbedtls_demo_complete
+.PHONY : mbedtls_demo_complete
 
 # fast build rule for target.
-aes_ecb_256_demo/fast:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/build
-.PHONY : aes_ecb_256_demo/fast
+mbedtls_demo_complete/fast:
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/build
+.PHONY : mbedtls_demo_complete/fast
+
+#=============================================================================
+# Target rules for targets named chacha20_demo
+
+# Build rule for target.
+chacha20_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chacha20_demo
+.PHONY : chacha20_demo
+
+# fast build rule for target.
+chacha20_demo/fast:
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/build
+.PHONY : chacha20_demo/fast
+
+#=============================================================================
+# Target rules for targets named sha256_demo
+
+# Build rule for target.
+sha256_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sha256_demo
+.PHONY : sha256_demo
+
+# fast build rule for target.
+sha256_demo/fast:
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/build
+.PHONY : sha256_demo/fast
+
+#=============================================================================
+# Target rules for targets named ecc_key_gen
+
+# Build rule for target.
+ecc_key_gen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ecc_key_gen
+.PHONY : ecc_key_gen
+
+# fast build rule for target.
+ecc_key_gen/fast:
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/build
+.PHONY : ecc_key_gen/fast
+
+#=============================================================================
+# Target rules for targets named hmac_sha256_demo
+
+# Build rule for target.
+hmac_sha256_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hmac_sha256_demo
+.PHONY : hmac_sha256_demo
+
+# fast build rule for target.
+hmac_sha256_demo/fast:
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/build
+.PHONY : hmac_sha256_demo/fast
 
 #=============================================================================
 # Target rules for targets named ecdh_demo
@@ -150,69 +202,30 @@ ecdsa_demo/fast:
 .PHONY : ecdsa_demo/fast
 
 #=============================================================================
-# Target rules for targets named hmac_sha256_demo
+# Target rules for targets named aes_ecb_256_demo
 
 # Build rule for target.
-hmac_sha256_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hmac_sha256_demo
-.PHONY : hmac_sha256_demo
+aes_ecb_256_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aes_ecb_256_demo
+.PHONY : aes_ecb_256_demo
 
 # fast build rule for target.
-hmac_sha256_demo/fast:
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/build
-.PHONY : hmac_sha256_demo/fast
+aes_ecb_256_demo/fast:
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/build
+.PHONY : aes_ecb_256_demo/fast
 
 #=============================================================================
-# Target rules for targets named ecc_key_gen
+# Target rules for targets named ecc_key_gen_der
 
 # Build rule for target.
-ecc_key_gen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ecc_key_gen
-.PHONY : ecc_key_gen
+ecc_key_gen_der: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ecc_key_gen_der
+.PHONY : ecc_key_gen_der
 
 # fast build rule for target.
-ecc_key_gen/fast:
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/build
-.PHONY : ecc_key_gen/fast
-
-#=============================================================================
-# Target rules for targets named sha256_demo
-
-# Build rule for target.
-sha256_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sha256_demo
-.PHONY : sha256_demo
-
-# fast build rule for target.
-sha256_demo/fast:
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/build
-.PHONY : sha256_demo/fast
-
-#=============================================================================
-# Target rules for targets named chacha20_demo
-
-# Build rule for target.
-chacha20_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chacha20_demo
-.PHONY : chacha20_demo
-
-# fast build rule for target.
-chacha20_demo/fast:
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/build
-.PHONY : chacha20_demo/fast
-
-#=============================================================================
-# Target rules for targets named mbedtls_demo_complete
-
-# Build rule for target.
-mbedtls_demo_complete: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mbedtls_demo_complete
-.PHONY : mbedtls_demo_complete
-
-# fast build rule for target.
-mbedtls_demo_complete/fast:
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/build
-.PHONY : mbedtls_demo_complete/fast
+ecc_key_gen_der/fast:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/build
+.PHONY : ecc_key_gen_der/fast
 
 aes_ecb_256_demo.o: aes_ecb_256_demo.c.o
 
@@ -294,6 +307,33 @@ ecc_key_gen.s: ecc_key_gen.c.s
 ecc_key_gen.c.s:
 	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.s
 .PHONY : ecc_key_gen.c.s
+
+ecc_key_gen_der.o: ecc_key_gen_der.c.o
+
+.PHONY : ecc_key_gen_der.o
+
+# target to build an object file
+ecc_key_gen_der.c.o:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/ecc_key_gen_der.c.o
+.PHONY : ecc_key_gen_der.c.o
+
+ecc_key_gen_der.i: ecc_key_gen_der.c.i
+
+.PHONY : ecc_key_gen_der.i
+
+# target to preprocess a source file
+ecc_key_gen_der.c.i:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/ecc_key_gen_der.c.i
+.PHONY : ecc_key_gen_der.c.i
+
+ecc_key_gen_der.s: ecc_key_gen_der.c.s
+
+.PHONY : ecc_key_gen_der.s
+
+# target to generate assembly for a file
+ecc_key_gen_der.c.s:
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/ecc_key_gen_der.c.s
+.PHONY : ecc_key_gen_der.c.s
 
 ecdh_demo.o: ecdh_demo.c.o
 
@@ -436,14 +476,15 @@ util.o: util.c.o
 
 # target to build an object file
 util.c.o:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.o
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.o
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.o
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.o
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.o
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.o
 	$(MAKE) -f CMakeFiles/ecdh_demo.dir/build.make CMakeFiles/ecdh_demo.dir/util.c.o
 	$(MAKE) -f CMakeFiles/ecdsa_demo.dir/build.make CMakeFiles/ecdsa_demo.dir/util.c.o
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.o
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.o
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.o
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.o
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.o
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.o
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/util.c.o
 .PHONY : util.c.o
 
 util.i: util.c.i
@@ -452,14 +493,15 @@ util.i: util.c.i
 
 # target to preprocess a source file
 util.c.i:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.i
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.i
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.i
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.i
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.i
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.i
 	$(MAKE) -f CMakeFiles/ecdh_demo.dir/build.make CMakeFiles/ecdh_demo.dir/util.c.i
 	$(MAKE) -f CMakeFiles/ecdsa_demo.dir/build.make CMakeFiles/ecdsa_demo.dir/util.c.i
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.i
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.i
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.i
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.i
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.i
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.i
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/util.c.i
 .PHONY : util.c.i
 
 util.s: util.c.s
@@ -468,14 +510,15 @@ util.s: util.c.s
 
 # target to generate assembly for a file
 util.c.s:
-	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.s
+	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.s
+	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.s
+	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.s
+	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.s
+	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.s
 	$(MAKE) -f CMakeFiles/ecdh_demo.dir/build.make CMakeFiles/ecdh_demo.dir/util.c.s
 	$(MAKE) -f CMakeFiles/ecdsa_demo.dir/build.make CMakeFiles/ecdsa_demo.dir/util.c.s
-	$(MAKE) -f CMakeFiles/hmac_sha256_demo.dir/build.make CMakeFiles/hmac_sha256_demo.dir/util.c.s
-	$(MAKE) -f CMakeFiles/ecc_key_gen.dir/build.make CMakeFiles/ecc_key_gen.dir/util.c.s
-	$(MAKE) -f CMakeFiles/sha256_demo.dir/build.make CMakeFiles/sha256_demo.dir/util.c.s
-	$(MAKE) -f CMakeFiles/chacha20_demo.dir/build.make CMakeFiles/chacha20_demo.dir/util.c.s
-	$(MAKE) -f CMakeFiles/mbedtls_demo_complete.dir/build.make CMakeFiles/mbedtls_demo_complete.dir/util.c.s
+	$(MAKE) -f CMakeFiles/aes_ecb_256_demo.dir/build.make CMakeFiles/aes_ecb_256_demo.dir/util.c.s
+	$(MAKE) -f CMakeFiles/ecc_key_gen_der.dir/build.make CMakeFiles/ecc_key_gen_der.dir/util.c.s
 .PHONY : util.c.s
 
 # Help Target
@@ -485,15 +528,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... aes_ecb_256_demo"
+	@echo "... mbedtls_demo_complete"
+	@echo "... chacha20_demo"
+	@echo "... sha256_demo"
+	@echo "... ecc_key_gen"
+	@echo "... hmac_sha256_demo"
 	@echo "... ecdh_demo"
 	@echo "... ecdsa_demo"
-	@echo "... hmac_sha256_demo"
-	@echo "... ecc_key_gen"
-	@echo "... sha256_demo"
-	@echo "... chacha20_demo"
-	@echo "... mbedtls_demo_complete"
+	@echo "... aes_ecb_256_demo"
+	@echo "... ecc_key_gen_der"
+	@echo "... edit_cache"
 	@echo "... aes_ecb_256_demo.o"
 	@echo "... aes_ecb_256_demo.i"
 	@echo "... aes_ecb_256_demo.s"
@@ -503,6 +547,9 @@ help:
 	@echo "... ecc_key_gen.o"
 	@echo "... ecc_key_gen.i"
 	@echo "... ecc_key_gen.s"
+	@echo "... ecc_key_gen_der.o"
+	@echo "... ecc_key_gen_der.i"
+	@echo "... ecc_key_gen_der.s"
 	@echo "... ecdh_demo.o"
 	@echo "... ecdh_demo.i"
 	@echo "... ecdh_demo.s"

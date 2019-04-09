@@ -43,10 +43,10 @@ RM = /opt/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mbedtls-demo-complete
+CMAKE_SOURCE_DIR = /tmp/mbedtls-demo-complete
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mbedtls-demo-complete/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/mbedtls-demo-complete/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ecc_key_gen.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ecc_key_gen.dir/flags.make
 
 CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o: CMakeFiles/ecc_key_gen.dir/flags.make
 CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o: ../ecc_key_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o   -c /home/mbedtls-demo-complete/ecc_key_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o   -c /tmp/mbedtls-demo-complete/ecc_key_gen.c
 
 CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mbedtls-demo-complete/ecc_key_gen.c > CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/mbedtls-demo-complete/ecc_key_gen.c > CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.i
 
 CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mbedtls-demo-complete/ecc_key_gen.c -o CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/mbedtls-demo-complete/ecc_key_gen.c -o CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.s
 
 CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o.provides.build: CMakeFiles/ecc_key_ge
 
 CMakeFiles/ecc_key_gen.dir/util.c.o: CMakeFiles/ecc_key_gen.dir/flags.make
 CMakeFiles/ecc_key_gen.dir/util.c.o: ../util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ecc_key_gen.dir/util.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecc_key_gen.dir/util.c.o   -c /home/mbedtls-demo-complete/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ecc_key_gen.dir/util.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecc_key_gen.dir/util.c.o   -c /tmp/mbedtls-demo-complete/util.c
 
 CMakeFiles/ecc_key_gen.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecc_key_gen.dir/util.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mbedtls-demo-complete/util.c > CMakeFiles/ecc_key_gen.dir/util.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/mbedtls-demo-complete/util.c > CMakeFiles/ecc_key_gen.dir/util.c.i
 
 CMakeFiles/ecc_key_gen.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecc_key_gen.dir/util.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mbedtls-demo-complete/util.c -o CMakeFiles/ecc_key_gen.dir/util.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/mbedtls-demo-complete/util.c -o CMakeFiles/ecc_key_gen.dir/util.c.s
 
 CMakeFiles/ecc_key_gen.dir/util.c.o.requires:
 
@@ -117,7 +117,7 @@ ecc_key_gen: CMakeFiles/ecc_key_gen.dir/ecc_key_gen.c.o
 ecc_key_gen: CMakeFiles/ecc_key_gen.dir/util.c.o
 ecc_key_gen: CMakeFiles/ecc_key_gen.dir/build.make
 ecc_key_gen: CMakeFiles/ecc_key_gen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ecc_key_gen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ecc_key_gen"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ecc_key_gen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/ecc_key_gen.dir/clean:
 .PHONY : CMakeFiles/ecc_key_gen.dir/clean
 
 CMakeFiles/ecc_key_gen.dir/depend:
-	cd /home/mbedtls-demo-complete/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mbedtls-demo-complete /home/mbedtls-demo-complete /home/mbedtls-demo-complete/cmake-build-debug /home/mbedtls-demo-complete/cmake-build-debug /home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/ecc_key_gen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/mbedtls-demo-complete/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/mbedtls-demo-complete /tmp/mbedtls-demo-complete /tmp/mbedtls-demo-complete/cmake-build-debug /tmp/mbedtls-demo-complete/cmake-build-debug /tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/ecc_key_gen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ecc_key_gen.dir/depend
 

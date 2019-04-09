@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mbedtls-demo-complete/hmac_sha256_demo.c" "/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/hmac_sha256_demo.dir/hmac_sha256_demo.c.o"
-  "/home/mbedtls-demo-complete/util.c" "/home/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/hmac_sha256_demo.dir/util.c.o"
+  "/tmp/mbedtls-demo-complete/hmac_sha256_demo.c" "/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/hmac_sha256_demo.dir/hmac_sha256_demo.c.o"
+  "/tmp/mbedtls-demo-complete/util.c" "/tmp/mbedtls-demo-complete/cmake-build-debug/CMakeFiles/hmac_sha256_demo.dir/util.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
