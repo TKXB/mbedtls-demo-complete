@@ -97,7 +97,7 @@ int main(){
     mbedtls_mpi_write_file( "Y_Q:   ", &ecp->Q.Y, 16, NULL );
     mbedtls_mpi_write_file( "D:     ", &ecp->d  , 16, NULL );
 
-    //write key pair to file using pem format
+    //write key pair to file using der format
     write_public_key_der(&mbedtlsPkContext, "publickey_der.txt");
     write_private_key_der(&mbedtlsPkContext, "privatekey_der.txt");
 }
